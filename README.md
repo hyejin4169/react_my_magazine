@@ -1,0 +1,1 @@
+# react_my_magazine
