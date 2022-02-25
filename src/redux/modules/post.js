@@ -129,6 +129,7 @@ const addPostFB = (contents = "") => {
     const _upload = uploadString(storageRef, _image, "data_url");
     _upload
       .then((snapshot) => {
+        console.log("snapshot : ", snapshot);
         getDownloadURL(snapshot.ref)
           .then((url) => {
             console.log(url);

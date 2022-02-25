@@ -55,8 +55,8 @@ Grid.defaultProps = {
 
 //props로 넘어오는 것들 여기서 style설정
 const GridBox = styled.div`
-    width: ${(props) => props.width}
-    height: 100%,
+    width: ${(props) => props.width};
+    height: 100%;
     box-sizing: border-box;
     ${(props) => (props.padding ? `padding: ${props.padding};` : "")}
     ${(props) => (props.margin ? `margin: ${props.margin};` : "")}

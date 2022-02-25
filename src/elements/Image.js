@@ -39,7 +39,7 @@ background-size: cover;
 `;
 
 const AspectOutter = styled.div`
-    width: 100%,
+    width: 100%;
     min-width: 250px;
 `;
 
